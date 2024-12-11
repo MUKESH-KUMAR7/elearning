@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background: url("website.avif");
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px; /* Added some padding for better spacing */
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    
+}
+
+p {
+    color: black;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(132, 165, 42);
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}

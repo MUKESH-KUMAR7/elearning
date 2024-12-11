@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration page</title>
+    <link rel="stylesheet" href="Registration.CSS">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- We have to create Registration form -->
+     
+    <div class="container">
+        <div class="form-box">
+            <form action="" name="formfill" onsubmit="return validation()">
+                <h2>Register</h2>
+                
+                <!-- <p id="result">head</p> -->
+
+                <div class="input-box">
+                    <i class='bx bx-user'></i>
+                    <input type="text" name="Username" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-envelope'></i>
+                    <input type="email" name="Email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <i class='bx bx-lock-open-alt'></i>
+                    <input type="password" name="Password" placeholder="Password" required>
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock-open-alt'></i>
+                    <input type="password" name="Confirm password" placeholder="Confirm Password" required>
+                </div>  
+
+                <div class="Registeration-link"> 
+
+                   <a href="index.html" target="_blank">Submit</a>
+
+                </div>
+
+
+
+            </form>
+        </div>
+
+    </div>
+   
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background: url("Main.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.h-text {
+    max-width: 600px;
+    color: black;
+    position: relative;
+    text-align: center;
+    padding: 20px; 
+}
+
+.h-text h1 {
+    font-size: 3em;
+    font-family: 'Averia Sans Libre', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+.h-text span {
+    color: rgb(179, 255, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h-text p {
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+
+
+}
+
+.h-text b{
+    background-color: brown;
+}
+
+.h-text a {
+    text-decoration: none;
+    color: black;
+    background: aqua;
+    padding: 10px 20px;
+    margin: 0 15px;
+    display: inline-block;
+    border-radius: 25px; 
+}
